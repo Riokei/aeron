@@ -1,0 +1,3 @@
+[submodule "themes/spar"]
+	path = themes/spar
+	url = https://github.com/Riokei/spar
