@@ -1,18 +1,16 @@
-baseURL = ''
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = "Spar"
 theme = "spar"
-relativeURLS = true
+
 
 [menu]
 
 [[menu.main]]
-    name    = "About"
-    identifier = "menu.about"
-    url = "about/"
+    name    = "About"    
+    pageRef = "/about.md"
 
 [[menu.main]]
-    name    = "Merch"
-    identifier = "menu.merch"
-    url = "https://www.redbubble.com/"
+    name    = "Merch"    
+    pageRef = "https://www.redbubble.com/"
 
