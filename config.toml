@@ -1,5 +1,18 @@
-baseURL = 'http://example.org/'
+baseURL = ''
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "Spar"
 theme = "spar"
+relativeURLS = true
+
+[menu]
+
+[[menu.main]]
+    name    = "About"
+    identifier = "menu.about"
+    url = "about/"
+
+[[menu.main]]
+    name    = "Merch"
+    identifier = "menu.merch"
+    url = "https://www.redbubble.com/"
 
