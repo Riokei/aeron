@@ -12,5 +12,5 @@ theme = "spar"
 
 [[menu.main]]
     name    = "Merch"    
-    pageRef = "https://www.redbubble.com/"
+    url = "https://www.redbubble.com/"
 
